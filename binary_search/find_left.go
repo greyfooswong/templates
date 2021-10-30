@@ -1,6 +1,8 @@
 package bs
 
-// 查找左边界
+/*
+查找左边界
+*/
 func Find_left(q []int, k int) int {
 	l, r := 0, len(q)-1
 	for l < r {
